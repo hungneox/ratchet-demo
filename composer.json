@@ -1,0 +1,20 @@
+{
+    "name": "hunguyen/ratchet-demo",
+    "description": "Rachet WebSocket Demo",
+    "type": "project",
+    "require": {
+        "cboden/ratchet": "^0.4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hung Nguyen",
+            "email": "hungnq1989@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Neox\\": "src/"
+        }
+    }
+}
